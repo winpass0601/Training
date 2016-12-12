@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Component">
+      <UniqueIdentifier>{f6251e90-5331-40d4-98ca-d7f6dc606b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component">
+      <UniqueIdentifier>{84655127-c241-452a-b97c-8dc29ddeb28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Core">
+      <UniqueIdentifier>{9ba0f79f-9584-4303-b595-f4fbc493a185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Core\Math">
+      <UniqueIdentifier>{61521ae6-1b19-4e09-99ac-c65af0308cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Utility">
+      <UniqueIdentifier>{d902f833-9b47-4a11-88c6-7956fdc4ca6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Core">
+      <UniqueIdentifier>{63f6150e-f574-4b1c-ba78-04c117436d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Core\FileSystem">
+      <UniqueIdentifier>{473a17d9-7f09-4d42-a58a-0a98369d0470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Core\FileSystem\Purser">
+      <UniqueIdentifier>{6e3bb35a-fee5-4f93-bd8c-0011b13ef1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Core\FileSystem">
+      <UniqueIdentifier>{03588ee2-3cec-4ade-abce-8789bdd4ee3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Core\FileSystem\Purser">
+      <UniqueIdentifier>{14b6c514-56bf-4a35-a9b1-6af048df49da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Core\FileSystem\IO">
+      <UniqueIdentifier>{32ac7bf8-9890-4907-84c2-4cd0adc91632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Device">
+      <UniqueIdentifier>{544a2f0b-f46b-4412-9c92-959b09541e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GUI">
+      <UniqueIdentifier>{f576cf13-7e41-4a05-96cd-39d8dffde9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource">
+      <UniqueIdentifier>{f389bbee-c974-48e0-ae5d-66084227e723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Model">
+      <UniqueIdentifier>{b2a5b6eb-126c-4fec-9245-f094d1f51e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Device">
+      <UniqueIdentifier>{0bb1520d-159e-48d6-8295-ce610918c5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject">
+      <UniqueIdentifier>{81f6977d-ed7f-44db-8278-1003572f6158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GUI">
+      <UniqueIdentifier>{4956cd25-c1a1-41e3-9a1d-21f7ce3ad097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Resource">
+      <UniqueIdentifier>{4e4ffcb1-4a5b-46a7-b0cb-2161ebbbb5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\Model">
+      <UniqueIdentifier>{83e249a9-1db0-4e97-8655-ce57a71be2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GPL">
+      <UniqueIdentifier>{d746c3ce-0b55-4acf-af4b-e8c8d7423159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GPL">
+      <UniqueIdentifier>{67bd4dc6-55bb-4ec8-b916-4a18c135992d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GPLS">
+      <UniqueIdentifier>{cb498e0e-5184-49b3-9b24-dcf51a094027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GPLS\DX11">
+      <UniqueIdentifier>{fdfaa997-f228-4c84-8d79-4d5ff7a11ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GPLS">
+      <UniqueIdentifier>{417b9ca4-d5bf-4b82-be38-0ddbd3bab64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GPL\Model">
+      <UniqueIdentifier>{9d6531f3-4674-4fff-8a60-aa6b7ba8f366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GPL\Test">
+      <UniqueIdentifier>{3d800bd8-09de-4adf-bf9e-ec3cb59907bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GPL\Test">
+      <UniqueIdentifier>{69b46bfc-6672-483a-8484-75323aa11b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GPL\Model">
+      <UniqueIdentifier>{1f5e3399-a231-43ff-a531-c89e31a71597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{cc3d3a7c-c751-4b5f-9677-395e0c46cdec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Model">
+      <UniqueIdentifier>{df34a127-2a2c-438f-87d3-3490eca62627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Model\PMX">
+      <UniqueIdentifier>{1917cbe2-2a69-49c3-b925-2a84864ef2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Test">
+      <UniqueIdentifier>{ca06f064-681f-4664-b1b2-4d03e28cbd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{bf2aaa85-90d7-4274-b9cf-3119fa230071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{77471be7-9ca1-4b65-b2f7-41b20faa98b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject">
+      <UniqueIdentifier>{be0a3e8d-909e-46da-89b4-7e186b6dc85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Primitive">
+      <UniqueIdentifier>{c362e256-8f9f-4b6b-9dce-8ad9787d0fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Model\LINE">
+      <UniqueIdentifier>{56ae8fdc-3c90-4bf6-8ed4-71bdb6b8fda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Graphics">
+      <UniqueIdentifier>{68fee4b2-2322-4b21-a4c4-a3b01f806b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Graphics">
+      <UniqueIdentifier>{e52b559f-c851-4355-ae85-02b8fadb424a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GPL\Deferred">
+      <UniqueIdentifier>{d31bd318-1e68-4387-86ff-13e8f914b60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Ball">
+      <UniqueIdentifier>{cc7b3953-544e-430b-b023-16f86c80c40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Ball">
+      <UniqueIdentifier>{7fbbbe6c-016d-4762-866e-d3c65536694e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GPLS\DX11">
+      <UniqueIdentifier>{cc2bb2c9-de50-4649-be35-022e07c152ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GPLS\DX11\Interface">
+      <UniqueIdentifier>{03c247a9-1980-4e95-9d56-9e2e4d83e180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device\DirextXDevice.cpp">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\imgui.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\imgui_demo.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\imgui_draw.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\imgui_impl_dx11.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device\WindowDevice.cpp">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\ResourceManager.cpp">
+      <Filter>ソース ファイル\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Transform.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Model\Model.cpp">
+      <Filter>ソース ファイル\Component\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Model\PmxModel.cpp">
+      <Filter>ソース ファイル\Component\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\Texture.cpp">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPL\Test\GPLTest.cpp">
+      <Filter>ソース ファイル\GPL\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPL\Model\GPLModel.cpp">
+      <Filter>ソース ファイル\GPL\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\GameMain.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\FileSystem\Purser\Pmx.cpp">
+      <Filter>ソース ファイル\Core\FileSystem\Purser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Stage.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPL\Line\GPLLine.cpp">
+      <Filter>ソース ファイル\GPL\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Camera.cpp">
+      <Filter>ソース ファイル\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPL\Deferred\GPLDeferred.cpp">
+      <Filter>ソース ファイル\GPL\Deferred</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Ball.cpp">
+      <Filter>ソース ファイル\GameObject\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\RigidBody.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\PlayerBall.cpp">
+      <Filter>ソース ファイル\GameObject\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPL\TileRenderer\TileRenderer.cpp">
+      <Filter>ソース ファイル\GPL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPLS\DX11\DS.cpp">
+      <Filter>ソース ファイル\GPLS\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPLS\DX11\HS.cpp">
+      <Filter>ソース ファイル\GPLS\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPLS\DX11\IA.cpp">
+      <Filter>ソース ファイル\GPLS\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPLS\DX11\OM.cpp">
+      <Filter>ソース ファイル\GPLS\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPLS\DX11\PS.cpp">
+      <Filter>ソース ファイル\GPLS\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPLS\DX11\RS.cpp">
+      <Filter>ソース ファイル\GPLS\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPLS\DX11\VS.cpp">
+      <Filter>ソース ファイル\GPLS\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPLS\DX11\CS.cpp">
+      <Filter>ソース ファイル\GPLS\DX11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Device.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Macro.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Transform.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Model\PmxModel.h">
+      <Filter>ヘッダー ファイル\Component\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Model\Model.h">
+      <Filter>ヘッダー ファイル\Component\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Manager.h">
+      <Filter>ヘッダー ファイル\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\ResourceManager.h">
+      <Filter>ヘッダー ファイル\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Time.h">
+      <Filter>ヘッダー ファイル\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Math\MathStruct.h">
+      <Filter>ヘッダー ファイル\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Math\Math.h">
+      <Filter>ヘッダー ファイル\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Math\MathFloat3.h">
+      <Filter>ヘッダー ファイル\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Math\MathMatrix.h">
+      <Filter>ヘッダー ファイル\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\FileSystem\IO.h">
+      <Filter>ヘッダー ファイル\Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\FileSystem\Purser.h">
+      <Filter>ヘッダー ファイル\Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\FileSystem\Purser\Pmx.h">
+      <Filter>ヘッダー ファイル\Core\FileSystem\Purser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\FileSystem\Purser\txt.h">
+      <Filter>ヘッダー ファイル\Core\FileSystem\Purser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\FileSystem\IO\ModelIO.h">
+      <Filter>ヘッダー ファイル\Core\FileSystem\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Device\DirectXDevice.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Device\WindowDevice.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\imconfig.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\imgui.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\imgui_impl_dx11.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\imgui_internal.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\stb_rect_pack.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\stb_textedit.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\stb_truetype.h">
+      <Filter>ヘッダー ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utility\EncodingHelper.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resource\Texture.h">
+      <Filter>ヘッダー ファイル\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utility\Utility.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPL\GPL.h">
+      <Filter>ヘッダー ファイル\GPL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\GPLS.h">
+      <Filter>ヘッダー ファイル\GPLS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\PS.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\RS.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\VS.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\IA.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\OM.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPL\Model\GPLModel.h">
+      <Filter>ヘッダー ファイル\GPL\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPL\Test\GPLTest.h">
+      <Filter>ヘッダー ファイル\GPL\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Math\MathFloat4.h">
+      <Filter>ヘッダー ファイル\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\FPSManager.h">
+      <Filter>ヘッダー ファイル\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene\GameMain.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Primitive\Sphere.h">
+      <Filter>ヘッダー ファイル\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\Stage.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPL\Line\GPLLine.h">
+      <Filter>ヘッダー ファイル\GPL\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\DS.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\HS.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graphics\Camera.h">
+      <Filter>ヘッダー ファイル\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\Ball.h">
+      <Filter>ヘッダー ファイル\GameObject\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\RigidBody.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\PlayerBall.h">
+      <Filter>ヘッダー ファイル\GameObject\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPL\TileRenderer\TileRenderer.h">
+      <Filter>ヘッダー ファイル\GPL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\CS.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IShader.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IShaderResourceView.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interfaces.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IBuffer.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\ISamplerState.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IDepthStencilState.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IRenderTargetViews.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IBlendState.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IViewPort.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IRasterizerState.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IInputLayout.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPLS\DX11\Interface\IUnorderedAccessView.h">
+      <Filter>ヘッダー ファイル\GPLS\DX11\Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\Model\PMX\PS.hlsl">
+      <Filter>Shader\Model\PMX</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Model\PMX\VS.hlsl">
+      <Filter>Shader\Model\PMX</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\TestPS.hlsl">
+      <Filter>Shader\Test</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\TestVS.hlsl">
+      <Filter>Shader\Test</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Utility\ps_line.hlsl">
+      <Filter>Shader\Model\LINE</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Utility\vs_line.hlsl">
+      <Filter>Shader\Model\LINE</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
